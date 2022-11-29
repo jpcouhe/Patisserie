@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    border-bottom: 1px solid pink;
+}
+
+.title{
+    width: 100%;
+    text-transform: uppercase;
+    color:pink;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+}
+.logo img{
+    width: 100px;
+    height: 100px
+;
+}
+
+#pastryList{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    width: 100%;
+    position: relative;
+    padding: 40px 20px;
+    border: 1px solid pink;
+    margin: 20px;
+
+}
+.card-img-container{
+text-align: center}
+
+.card-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.card-name{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    color: tomato;
+}
+
+.card-button{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-button:hover{
+    background-color:pink ;
+    cursor: pointer;
+    color: tomato;
+}
+
+#item{
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-pastry{
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding:20px;
+    margin: 10px;
+}
+
+.card-pastry-name{
+    color: tomato;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-pastry-description{
+    font-size: 1.3rem;
+    text-align: center;
+}
